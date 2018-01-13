@@ -26,4 +26,4 @@ $(function() {
 })
 ```
 
-Here is [JsFiddle](https://jsfiddle.net/23LupeLk/) to show you the repro.
+Here is [JsFiddle](https://jsfiddle.net/23LupeLk/2/) to show the behavior.
