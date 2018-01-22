@@ -37,7 +37,9 @@ var key = 'toast';
 var obj = {
   [key]: 'French'
 };
-console.log(JSON.stringify('obj)'); // ==> { "toast": "French"}
+console.log(JSON.stringify(obj)); // ==> { "toast": "French"}
+```
 
+Here is [JsFiddle](https://jsfiddle.net/Ln2zkk3h/) to show the work.
 
 
