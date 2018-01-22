@@ -27,3 +27,17 @@ $(function() {
 ```
 
 Here is [JsFiddle](https://jsfiddle.net/23LupeLk/2/) to show the behavior.
+
+## Learning 2: Dynamic property name in JSON object
+
+If you need to creat json object whose property name is dynamic, put them in array ([]) operators like below
+
+``` javascript
+var key = 'toast';
+var obj = {
+  [key]: 'French'
+};
+console.log(JSON.stringify('obj)'); // ==> { "toast": "French"}
+
+
+
