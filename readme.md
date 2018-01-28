@@ -42,4 +42,19 @@ console.log(JSON.stringify(obj)); // ==> { "toast": "French"}
 
 Here is [JsFiddle](https://jsfiddle.net/Ln2zkk3h/) to show the work.
 
+## Learning 3: nth-child CSS pseudo selector
+
+```scss
+// from 3rd child on
+:nth-child(n+3)
+// every 3rd child
+:nth-child(3n)
+// last 2 children
+:nth-last-child(-n+2)
+// between child 3 and 6
+:nth-child(n+3):nth-child(-n+6)
+
+```
+
+Here is [JsFiddle](https://jsfiddle.net/b7z6e201/) to show the example above.
 
